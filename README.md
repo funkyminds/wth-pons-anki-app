@@ -8,4 +8,14 @@ This is a full application that integrates:
 
 Configurable via a [zio-config](https://zio.github.io/zio-config/).
 
+Configuration file template:
+```json
+{
+  words_path: "path to file with phrases to be queried",
+  anki: {
+    deck_name: "name::of::anki::deck::to:be::populated"
+  }
+}
+```
+
 More to come.

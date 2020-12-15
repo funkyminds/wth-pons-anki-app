@@ -14,8 +14,17 @@ Configuration file template:
   words_path: "path to file with phrases to be queried",
   anki: {
     deck_name: "name::of::anki::deck::to:be::populated"
+  },
+  pons: {
+    source: "en",
+    target: "es",
+    secret: "access token from pons.eu"
   }
 }
+```
+Run:
+```
+-Dconfig.file=/path/to/configuration/file.above
 ```
 
 More to come.

@@ -27,4 +27,6 @@ Run:
 -Dconfig.file=/path/to/configuration/file.above
 ```
 
+**Note:** Run [Anki](https://apps.ankiweb.net/) with [anki-connect](https://ankiweb.net/shared/info/2055492159) add-on before running the wth application.
+
 More to come.
